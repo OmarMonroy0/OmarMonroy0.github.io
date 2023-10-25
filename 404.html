@@ -1,0 +1,37 @@
+<!-- this file is used to avoid a not found exception-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omar Monroy Web Page</title>
+</head>
+
+<body>
+</body>
+
+<style>
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        min-height: 100vh;
+        background-color: #263834;
+    }
+</style>
+
+<script type="text/javascript">
+    var current = window.location.href.toLocaleLowerCase();
+
+    var resume = "OmarMonroy0.github.io/Resume".toLocaleLowerCase();
+    var projects = "OmarMonroy0.github.io/projects".toLocaleLowerCase();
+
+    if (current.indexOf(resume) !== -1) {
+        window.location.replace("/OmarMonroyResume.pdf");
+    } else if (current.indexOf(projects) !== -1) {
+        window.location.replace("/#Projects");
+    } else window.location.replace("/");
+</script>
+
+</html>
