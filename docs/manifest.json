@@ -1,0 +1,15 @@
+{
+    "short_name": "Web Page",
+    "name": "Omar Monroy's Web Page",
+    "icons": [
+      {
+        "src": "/Images/Favicon.png",
+        "sizes": "64x64",
+        "type": "image/png"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#37474f",
+    "background_color": "#37474f"
+  }
